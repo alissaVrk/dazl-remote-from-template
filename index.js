@@ -14,7 +14,7 @@ class Project {
   }
 
   increase() {
-    this.#count++;
+    this.#count = this.#count + 2;
   }
 
   async commitProject(message) {
@@ -26,7 +26,7 @@ class Project {
     return await this.#simpleGit.status();
   }
 
-  async push(remote = 'origin', branch = 'main') {
+  async push(remote = "origin", branch = "main") {
     return await this.#simpleGit.push(remote, branch);
   }
 
