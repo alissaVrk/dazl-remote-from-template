@@ -17,10 +17,6 @@ class Project {
     this.#count = this.#count + 2;
   }
 
-  decrease() {
-    this.#count = this.#count - 1;
-  }
-
   async commitProject(message) {
     await this.#simpleGit.add(".");
     await this.#simpleGit.commit(message);
