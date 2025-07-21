@@ -1,2 +1,3 @@
 # This is the default ignore rules for Dazl Repo
 node_modules/
+!.env
