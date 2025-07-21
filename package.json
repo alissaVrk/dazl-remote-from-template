@@ -1,0 +1,11 @@
+{
+  "name": "dazl-dual-git",
+  "version": "1.0.0",
+  "description": "A dual-git repository system with Dazl and Project repos",
+  "main": "index.js",
+  "scripts": {
+    "commit-dazl": ".dazl/commit-to-dazl.sh",
+    "commit-project": ".dazl/commit-to-project.sh"
+  },
+  "license": "MIT"
+}

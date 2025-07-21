@@ -7,3 +7,9 @@
 	ignorecase = true
 	precomposeunicode = true
 	excludesFile = .dazl/.gitignore.project
+[remote "origin"]
+	url = git@github.com:alissaVrk/dazl-project.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "main"]
+	remote = origin
+	merge = refs/heads/main
