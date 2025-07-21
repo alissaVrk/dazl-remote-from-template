@@ -3,9 +3,13 @@
   "version": "1.0.0",
   "description": "A dual-git repository system with Dazl and Project repos",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "commit-dazl": ".dazl/commit-to-dazl.sh",
     "commit-project": ".dazl/commit-to-project.sh"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "simple-git": "^3.28.0"
+  }
 }
