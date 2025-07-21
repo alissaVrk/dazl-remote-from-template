@@ -5,8 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "commit-dazl": ".dazl/commit-to-dazl.sh",
-    "commit-project": ".dazl/commit-to-project.sh"
+    "commit-dazl": "../commit-to-dazl.sh"
   },
   "license": "MIT",
   "dependencies": {
