@@ -4,9 +4,7 @@
   "description": "A dual-git repository system with Dazl and Project repos",
   "main": "index.js",
   "type": "module",
-  "scripts": {
-    "commit-dazl": "../commit-to-dazl.sh"
-  },
+  "scripts": {},
   "license": "MIT",
   "dependencies": {
     "simple-git": "^3.28.0"
